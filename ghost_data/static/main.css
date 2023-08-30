@@ -1,0 +1,65 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, black, rgb(20, 20, 20),rgb(32, 32, 32));
+    color: rgb(204, 204, 204);
+}
+form{
+    background:rgb(32,32,32);
+    width: 350px;
+    height: 580px;
+    padding-left: 50px;
+    padding-top: 75px;
+    position: absolute;
+    top: 50%; /* Align the element's top edge to the vertical center of its parent */
+    left: 50%; /* Align the element's left edge to the horizontal center of its parent */
+    transform: translate(-50%, -50%); /* Center the element perfectly */
+}
+h1 {
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 45px;
+    font-size: 45px;
+}
+.textBox{
+    border-bottom: 2px solid rgb(255, 0, 0);
+    width:85%;
+    position: relative;
+    margin:35px 0px; 
+}
+.textBox input{
+    font-size: larger;
+    background: none;
+    border:none;
+    outline: none;
+    color: rgb(199, 0, 0);
+}
+.loginBtn{
+    font: larger;
+    color: rgb(50,50,50);
+    height: 45px;
+    width:85%;
+    border:none;
+    outline:none;
+    background: rgb(199, 0, 0);
+}
+.loginBtn:hover{
+    background: rgb(170, 0, 0);
+}
+.signUp{
+    margin: 30px 0;
+    padding-right: 18%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.signUp a{
+    color:rgb(199, 0, 0)
+}
+.signUp a:hover{
+    color:rgb(170, 0, 0)
+}
